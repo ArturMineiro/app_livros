@@ -65,13 +65,13 @@ Listar todos os livros
 ![Tela Principal](docs/screenshots/tela_principal.png)
 
 ### Tela Principal
-![Tela Principal](docs/screenshots/formularioeditar.png)
+![Tela Principal](app/docs/screenshots/formularioeditar.png)
 
 ### Formulário de Cadastro/Edição
-![Formulário](docs/screenshots/formulario.png)
+![Formulário](app/docs/screenshots/formulario.png)
 
 ### Lista de Livros com Ações
-![Lista de Livros](docs/screenshots/mensagem-deletar.jpg)
+![Lista de Livros](app/docs/screenshots/mensagem-deletar.jpg)
 Tela Principal: Lista de livros, FAB para adicionar.
 
 Formulário: Campos de título, autor, ano, preço e checkbox de disponibilidade.
