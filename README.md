@@ -60,18 +60,18 @@ Excluir livro
 
 Listar todos os livros
 
-📸 Telas do App
-### Tela Principal
-![Tela Principal](docs/screenshots/tela_principal.png)
+## 📸 Telas do App
+<p align="center">
+  <img src="docs/screenshots/tela_principal.png" width="250"/>
+  <img src="docs/screenshots/formularioeditar.png" width="250"/>
+</p>
 
-### Tela Principal
-![Tela Principal](app/docs/screenshots/formularioeditar.png)
+<p align="center">
+  <img src="docs/screenshots/formulario.png" width="250"/>
+  <img src="docs/screenshots/mensagem-deletar.jpg" width="250"/>
+</p>
 
-### Formulário de Cadastro/Edição
-![Formulário](app/docs/screenshots/formulario.png)
 
-### Lista de Livros com Ações
-![Lista de Livros](app/docs/screenshots/mensagem-deletar.jpg)
 Tela Principal: Lista de livros, FAB para adicionar.
 
 Formulário: Campos de título, autor, ano, preço e checkbox de disponibilidade.
