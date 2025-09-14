@@ -60,16 +60,18 @@ Excluir livro
 
 Listar todos os livros
 
-## 📸 Telas do App
-<p align="center">
-  <img src="docs/screenshots/tela_principal.png" width="250"/>
-  <img src="docs/screenshots/formularioeditar.png" width="250"/>
-</p>
+📸 Telas do App
+### Tela Principal
+<img src="/app/docs/screenshots/tela_principal.png" width="130" height="160px"/>
 
-<p align="center">
-  <img src="docs/screenshots/formulario.png" width="250"/>
-  <img src="docs/screenshots/mensagem-deletar.jpg" width="250"/>
-</p>
+### Formulario de edição
+<img src="/app/docs/screenshots/formularioeditar.png"  width="130" height="160px"/>
+
+### Formulário de Cadastro/
+<img src="/app/docs/screenshots/formulario.png" width="130" height="160px"/>
+
+### Mensagem de deletar/
+<img src="/app/docs/screenshots/mensagem-deletar.jpg" width="130" height="160px"/>
 
 
 Tela Principal: Lista de livros, FAB para adicionar.
