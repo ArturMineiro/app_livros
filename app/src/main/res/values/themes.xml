@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Livros_projeto_app" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Cores -->
+        <item name="colorPrimary">@color/md_primary</item>
+        <item name="colorOnPrimary">@color/md_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/md_secondary</item>
+        <item name="colorOnSecondary">@color/md_onSecondary</item>
+
+        <item name="android:statusBarColor">@color/md_primary</item>
+        <item name="android:navigationBarColor">@color/md_surface</item>
+
+        <!-- Forma dos componentes -->
+        <item name="shapeAppearanceSmallComponent">@style/Shape.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.Large</item>
+    </style>
+
+    <!-- Bordas arredondadas elegantes -->
+    <style name="Shape.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="Shape.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="Shape.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <!-- Text styles para os itens -->
+    <style name="Text.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/md_onSurface</item>
+    </style>
+    <style name="Text.Subtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/md_onSurfaceVariant</item>
+    </style>
+    <style name="Text.Metadata" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/md_onSurfaceVariant</item>
+    </style>
+</resources>

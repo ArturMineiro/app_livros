@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Livros_projeto_app" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Deixa o Material cuidar da inversão de cores -->
+    </style>
+</resources>

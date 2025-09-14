@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Livros</string>
+    <string name="add">Adicionar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="footer_text">Feito no projeto de persistência SQLite</string>
+
+</resources>

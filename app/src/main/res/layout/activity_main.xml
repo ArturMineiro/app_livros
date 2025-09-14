@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <!-- Navbar / Toolbar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="@string/app_name"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- Conteúdo principal (lista de livros) -->
+    <ListView
+        android:id="@+id/listViewLivros"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="40dp"
+        android:dividerHeight="8dp"
+        android:padding="12dp" />
+
+    <!-- Botão de adicionar -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/add"
+        android:src="@android:drawable/ic_input_add" />
+
+    <!-- Footer -->
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="@string/footer_text"
+        android:textSize="14sp"
+        android:background="#EEEEEE"
+        android:textColor="@android:color/black" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
